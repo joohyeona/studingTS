@@ -1,0 +1,19 @@
+{
+  "name": "section2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec node --loader ts-node/esm server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.14.0"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.19.3"
+  }
+}
